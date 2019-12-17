@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hello\", function() { return hello; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"helloToBrows\", function() { return helloToBrows; });\n \n\nconst hello = word => console.log(word, variable);\nconst helloToBrows = word => document.body.textContent = word + variable;\n\nconst variable = \" and variable\"\n\n//# sourceURL=webpack:///./src/hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hello\", function() { return hello; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"helloToBrows\", function() { return helloToBrows; });\n \nconst variable = \" and varasasdd\"\n// let newElement = document.createElement('h2');\n// newElement.val\n// const title = document.querySelector('h1')\n\nconst hello = word => console.log(word, variable);\nconst helloToBrows = word => {\n    const container = document.querySelector('h1');\n    container.parentNode.textContent = word\n};\n\n//# sourceURL=webpack:///./src/hello.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./src/hello.js\");\n\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])(\"hello from webpaasdadsck\");\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"helloToBrows\"])(\"hope that it's working, but who knows? ;)\")\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./src/hello.js\");\n\n\n\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])(\"hello from webpaasdadzxcsck\");\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"helloToBrows\"])(\"Hi from hello.js)\")\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

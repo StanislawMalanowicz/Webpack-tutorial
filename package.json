@@ -8,7 +8,9 @@
     "dev": "webpack --mode development",
     "start": "webpack-dev-server --open",
     "watch": "webpack --watch",
-    "watch:develop": "yarn run dev -- --watch"
+    "watch:develop": "yarn run dev -- --watch",
+    "start2": "webpack-dev-server --config webpack-config.js",
+    "start3": "node node_modules/.bin/webpack-dev-server --content-base app"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,10 @@
   },
   "homepage": "https://github.com/StanislawMalanowicz/Webpack-tutorial#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
