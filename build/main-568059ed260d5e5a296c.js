@@ -141,7 +141,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./src/hello.js\");\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])(\"hello froaasdaxxdzxcsck\");\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"helloToBrows\"])(\"Finally Hi from hello.js)\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./src/hello.js\");\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])(\"hello from js to console\");\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"helloToBrows\"])(\"Finally Hi from hello.js)\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

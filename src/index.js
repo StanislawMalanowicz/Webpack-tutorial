@@ -3,5 +3,5 @@ import './style/index.css'
 
 
 
-hello("hello froaasdaxxdzxcsck");
+hello("hello from js to console");
 helloToBrows("Finally Hi from hello.js)");
