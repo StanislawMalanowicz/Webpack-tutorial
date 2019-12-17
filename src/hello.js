@@ -7,5 +7,7 @@ const variable = " and varasasdd"
 export const hello = word => console.log(word, variable);
 export const helloToBrows = word => {
     const container = document.querySelector('h1');
-    container.parentNode.textContent = word
+    let newElement = document.createElement('h2');
+    newElement.textContent = word
+    container.parentNode.appendChild(newElement);
 };
