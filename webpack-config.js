@@ -8,15 +8,23 @@ module.exports = {
     main: "./src/index.js"
   },
   output: {
-    filename: './[name]-[contenthash].js',
+    filename: "./[name]-[contenthash].js",
     path: path.resolve(__dirname, "build")
   },
   watch: true,
-  
+
   devServer: {
     open: true,
-    contentBase: path.resolve(__dirname  ),
+    contentBase: path.resolve(__dirname),
     port: 9000
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
   },
   plugins: [
     new CleanWebpackPlugin(),
